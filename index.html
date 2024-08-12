@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Detection</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="searchBox">
+            <input class="nameInput" type="text" placeholder="enter city name">
+            <button class="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <img class="imgWeather" src="/clear.png">
+        </div>
+        <div class="details">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+        </div>
+        <footer class=".last">
+            <div class="humdityWhole">
+                <div class="humid">
+                    <img class="humidImg" src="/humidity.png">
+                    <div class="txtHumid">50%</div>
+                </div>
+                <p>Humidity</p>
+            </div>
+            
+            <div class="windWhole">
+                <div class="wind">
+                    <img class="windImg" src="/wind.png">
+                    <div class="txtWind">10.29 km/h</div>
+                </div>
+                <p>Wind Speed</p>
+            </div>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

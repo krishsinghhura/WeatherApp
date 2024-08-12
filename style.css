@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #142d4c;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: #385170;
+    width: 25rem;
+    margin-top: 5.938rem;
+    border-radius: 1.25rem;
+    border: black groove 0.063rem;
+}
+.searchBox{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.searchBox input{
+    width: 16.625rem;
+    height: 2.2rem;
+    border-radius:1.25rem ;
+    border: none;
+    padding: 0.625rem ;
+}
+.searchBox .submit{
+    height:3.75rem;
+    width: 3.75rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.sunImg{
+    height: 100px;
+    background-color: #385170;
+}
+.weather{
+    margin-top: 2.5rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+}
+.weather img{
+    height: 100px;
+}
+.details{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+footer{
+    margin-top: 4rem;
+    display: flex;
+    width: 25rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    color: white;
+}
+.humidImg,.windImg{
+    height: 1.875rem;
+}
+.humidImg{
+    margin-top: 0.25rem;
+}
+.humid{
+    display: flex;
+}
+.txtHumid{
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+}
+.humdityWhole p{
+    margin-left: 2.813rem;
+    margin-top: 0.313rem;
+    font-size: 0.938;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.windImg{
+    margin-top: 0.25rem;
+}
+.wind{
+    display: flex;
+}
+.txtWind{
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+}
+.windWhole p{
+    margin-left: 2.813rem;
+    margin-top: 0.313rem;
+    font-size: 0.938;
+    color: rgba(255, 255, 255, 0.692);
+}
